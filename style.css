@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#inicio {
+    background: url('fundo.jpg') no-repeat center center/cover;
+    opacity: 90%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgoldenrodyellow;
+    text-align: center;
+
+}
+
+#sobre {
+    padding: 40px;
+    background-color: #333333;
+    text-align: center;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sobre-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(110, 110, 110, 110);
+}
+
+.sobre-texto {
+    max-width: 500px;
+    text-align: left;
+    color: #f4f4f4;
+}
+
+.sobre-texto h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #f4f4f4;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.projeto {
+    background: dimgray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgba(140, 240, 220, 0.1);
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contato {
+    text-align: center;
+    padding: 40px;
+    background: silver;
+}
